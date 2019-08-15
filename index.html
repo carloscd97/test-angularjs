@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es" ng-app="Bluefire">
+<head>
+	<base href="/">
+	<title>Test Angular</title>
+</head>
+	<link rel="stylesheet" type="text/css" href="/test-angularjs/assets/css/plugins/bootstrap.css">
+<body>
+	<blog-list></blog-list>
+	<div class="container" ng-controller='BlogDetailController'>
+		{{ posts }}
+	</div>
+	<script type="text/javascript" src="/test-angularjs/assets/js/plugins/jquery-3.3.1.slim.js"></script>
+	<script type="text/javascript" src="/test-angularjs/assets/js/plugins/popover.js"></script>
+	<script type="text/javascript" src="/test-angularjs/assets/js/plugins/bootstrap.js"></script>
+	<script type="text/javascript" src="/test-angularjs/assets/js/plugins/angular.js"></script>
+
+	<script type="text/javascript" src="/test-angularjs/assets/js/app/app.module.js"></script>
+	<script type="text/javascript" src="/test-angularjs/assets/js/app/app.config.js"></script>
+	<script type="text/javascript" src="/test-angularjs/assets/js/app/blog-list/blog-list.module.js"></script>
+	<script type="text/javascript" src="/test-angularjs/assets/js/app/blog-list/blog-list.component.js"></script>
+	<script type="text/javascript" src="/test-angularjs/assets/js/app/blog-detail/blog-detail.module.js"></script>
+	<script type="text/javascript" src="/test-angularjs/assets/js/app/blog-detail/blog-detail.component.js"></script>
+</body>
+</html>
